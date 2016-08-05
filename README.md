@@ -5,4 +5,4 @@
 
 ## 格式说明
 - x00.tar ... x10.tar  字图片的打包文件，用一般的解压软件解压即可；
-- segmentation_character.sql.zip 导出的字信息数据库表。
+- segmentation_character.sql.zip 导出的字信息数据库表，数据库为postgresql。
