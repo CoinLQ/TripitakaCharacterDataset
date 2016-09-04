@@ -4,8 +4,12 @@
 百度云网盘共享链接: https://pan.baidu.com/s/1jHOmy94
 
 ## 格式说明
-- x00.tar ... x10.tar  字图片的打包文件，用一般的解压软件解压即可；
-- segmentation_character.sql.zip 导出的字信息数据库表，数据库为postgresql。
+- segmentation_character.sql.zip 导出的字信息数据库表，数据库为postgresql，其中的部分字段说明如下：
+  - char 对应的实际汉字
+  - image 字图片文件的名称
+  - page_id 字所在页面的ID
+  - is_correct 值大于0时表示字图片与字对应正确，小于0时表示字图片与字不对应，为0时表示没有标注
+- x00.tar ... x10.tar  字图片的打包文件，用一般的解压软件解压即可；每个字图片的路径为{page_id}/{image}
 
 # 基于大藏经切字数据包的OCR识别引擎
 ## 基于SVM。
