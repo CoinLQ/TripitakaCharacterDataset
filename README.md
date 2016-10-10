@@ -1,7 +1,7 @@
 # 大藏经切字数据包
 这是从大藏经经文图片中切分出的单个字的图片数据，每个月更新一个数据版本。现在的版本是1.2版，全部是数据来自高丽藏，未来会加入其他藏经的汉字数据。
 
-百度云网盘共享链接: https://pan.baidu.com/s/1jHOmy94
+百度云网盘共享链接: https://pan.baidu.com/s/1miJIuPq
 
 ## 格式说明
 - segmentation_character.sql.zip 导出的字信息数据库表，数据库为postgresql，其中的部分字段说明如下：
