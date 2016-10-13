@@ -3767,8 +3767,8 @@ range_0_95_to_1：表示accuracy在[0.95,1]区间的个数
   冒   |                  4 |                  0 |               0
 
 
-	人工标注的字图片统计如下：
- correct表示is_correct=1的个数，uncertain表示is_correct=0的个数
+人工标注的字图片统计如下：
+correct表示is_correct=1的个数，uncertain表示is_correct=0的个数
  
   char  | correct | uncertain 
 -------+---------+-----------
